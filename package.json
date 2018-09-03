@@ -1,0 +1,29 @@
+{
+  "name": "supertest-parse",
+  "version": "1.0.0",
+  "description": "Parse supertest responses to allow querying content.",
+  "license": "MIT",
+  "repository": "alexnaish/supertest-parse",
+  "main": "index.js",
+  "author": {
+    "name": "Alex Naish",
+    "email": "alex@naish.io",
+    "url": "http://naish.io"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "src/index.js"
+  ],
+  "keywords": [
+    "supertest",
+    "cheerio",
+    "parser",
+    "test"
+  ],
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "supertest": "^3.1.0"
+  }
+}
